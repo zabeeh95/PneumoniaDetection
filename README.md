@@ -1,4 +1,4 @@
-📘 Pneumonia Detection from Chest X-Ray Images
+**📘 Pneumonia Detection from Chest X-Ray Images**
 
 An end-to-end deep learning project for detecting Pneumonia from chest X-ray images using convolutional neural
 networks (CNNs) and transfer learning. This repository contains training notebooks that explore multiple frameworks (
@@ -9,7 +9,7 @@ Pneumonia is a respiratory infection that can be diagnosed using chest X-ray ima
 learning models can automate this classification task by learning distinctive visual patterns between healthy and
 pneumonia-affected lungs.
 
-Key goals:
+**Key goals:**
 
 Preprocess and analyse chest X-ray dataset
 
@@ -19,7 +19,7 @@ Compare TensorFlow and PyTorch implementations
 
 Use transfer learning for improved performance
 
-🛠 Core Features
+**🛠 Core Features**
 🧪 Training Notebooks
 
 TransferLearning.ipynb – Uses pretrained models on chest X-ray data to leverage learned image features.
@@ -40,7 +40,7 @@ Evaluation metrics (accuracy, loss, confusion matrices)
 
 Visualization of training and evaluation results
 
-📦 Dataset
+**📦 Dataset**
 
 This project uses a publicly available Chest X-Ray Pneumonia dataset structured into train, val, and test folders with
 subfolders for:
@@ -51,7 +51,7 @@ PNEUMONIA (lung X-rays showing pneumonia)
 
 You can download the dataset from Kaggle and place it accordingly before training.
 
-🧑‍🔬 Model Evaluation
+**🧑‍🔬 Model Evaluation**
 
 After training, models are evaluated using key performance metrics such as:
 
@@ -65,7 +65,7 @@ Confusion matrices
 
 These help assess robustness and practical performance on unseen held-out data.
 
-📈 Results
+**📈 Results**
 
 Each notebook includes visual summaries of training behavior and model performance, enabling comparison between
 approaches and insights into which technique is most effective for the task.
